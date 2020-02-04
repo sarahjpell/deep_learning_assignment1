@@ -21,8 +21,11 @@ from sklearn.preprocessing import LabelEncoder
 
 from tensorflow.python.client import device_lib
 
-def main:
-
+def main(
+        batch_size=128,
+        epochs=1,
+        val_frac=0.2,
+):
 	batch_size = 128
 	epochs = 1
 	val_frac=0.2
