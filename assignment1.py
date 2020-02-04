@@ -193,3 +193,5 @@ def plot_confusion_matrix(
 # test_loss, test_acc = model.evaluate(x_test, y_test)
 # print("test accuracy: ", test_acc)
 
+if __name__ == '__main__':
+    main(batch_size=2 ** 14, epochs=200)
